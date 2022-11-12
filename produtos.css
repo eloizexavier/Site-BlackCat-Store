@@ -1,0 +1,113 @@
+header {
+    background: #F6F1E7;
+    font-family: poppins;
+    padding: 20px 0;
+}
+
+.icon {
+    width: 250px;
+}
+
+.caixa {
+    width: 250px;
+}
+
+.acessorios {
+    width: 250px;
+}
+
+.dicas {
+    width: 250px;
+}
+
+.limites {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color:#52514F;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #F5AF4B;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background: #F5DEA8;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: #8B008B double 5px;
+    border-radius: 20px;
+}
+
+.produtos li:hover {
+    border-color: #CFC6FF;
+}
+
+.produtos li:active {
+    border-color: #52514F;
+}
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.texto-produto {
+    font-family: poppins;
+    font-size: 18px;
+}
+
+.valor-produto{
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.logo-final {
+    width: 200px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.png");
+    padding: 40px 0;
+}
+
+.copyright{
+    font-size: 13px;
+    margin: 20px 0;
+}
